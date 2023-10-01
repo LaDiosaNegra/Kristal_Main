@@ -1,0 +1,59 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNqFlE4RWyHSdVBsBeK84ht",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/LaDiosaNegra/Kristal_SiliconAccra/blob/main/02%20Oct%20HW\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "gQ3VqocZrHkd"
+      },
+      "outputs": [],
+      "source": [
+        "product = input(\"Enter product to get price > \")\n",
+        "\n",
+        "if product == \"foundation\":\n",
+        "  print(\"Your favorite foundation is 250 ghc\")\n",
+        "\n",
+        "elif product == \"primer\":\n",
+        "  print(\"Your favorite primer is 175 ghc\")\n",
+        "\n",
+        "elif product == \"mascara\":\n",
+        "  print(\"Your favorite mascara is 120 ghc\")\n",
+        "\n",
+        "elif product == \"loose powder\":\n",
+        "  print(\"The loose powder is on sale for 90 ghc\")\n",
+        "\n",
+        "elif product == \"eyelash\":\n",
+        "  print(\"We have special for 25 ghc\")\n",
+        "\n",
+        "else:\n",
+        "  print(\"out of stock\")"
+      ]
+    }
+  ]
+}
