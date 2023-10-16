@@ -56,7 +56,6 @@ class Booking:
         self.luxury_suite = luxury_suite
         self.standard_suite = standard_suite
 
-# Create objects for the five-star hotels
 
 # Objects
 
@@ -111,7 +110,7 @@ while True:
         print("Please try again.")
         break
 
-# continue with your code
+
 
 
 # define the variable `hotel_name` based on the user's selection
